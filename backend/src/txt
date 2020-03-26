@@ -1,0 +1,4 @@
+/**
+ * Query Params (?name=pedro), Route Params (:id)
+ * Req body: conteúdo da requisição
+ */
