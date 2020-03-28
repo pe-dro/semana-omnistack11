@@ -7,9 +7,6 @@ module.exports = {
         .where('ong_id', ong_id)
         .select('*')
 
-        if (incidents.length < 1){
-            return res.json({error: "No incidents."})
-        }
         res.json(incidents)
     },
 }
